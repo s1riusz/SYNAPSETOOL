@@ -7,15 +7,11 @@ Write-Host @"
 //  \ \___  \ \____ \ \ \-.  \ \  __ \ \  _-/\ \___  \ \  __\     \/_/\ \/\ \ \/\ \ \ \/\ \ \ \____  
 //   \/\_____\/\_____\ \_\\"\_\ \_\ \_\ \_\   \/\_____\ \_____\      \ \_\ \ \_____\ \_____\ \_____\ 
 //    \/_____/\/_____/\/_/ \/_/\/_/\/_/\/_/    \/_____/\/_____/       \/_/  \/_____/\/_____/\/_____/ 
-//                                                                                                   
-//
-//                                                                                                                                                         
-//                                                                                                                                                         
+//                                                                                                                                                                                                                                                       
 
 "@ -ForegroundColor Red
 Write-Host ""
-Write-Host "  Made by Bacanoicua kjj - " -ForegroundColor Blue -NoNewline
-Write-Host -ForegroundColor Red "discord.gg/redlotus"
+Write-Host -ForegroundColor Red "discord.gg/synapsess"
 
 Write-Host ""
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
